@@ -1,2 +1,2 @@
 # ActionPress
-A Wordpress plugin to make your "Read More" links a bespoke call-to-action for each post
+Turn your "More" links into a bespoke call-to-action for each post. Rather than have "Read more" or "[...]" after your excerpt, you could have "See Bob's garden up close" in a post about a beautiful garden, or "Try our tasty sauce" in a bolognese sauce recipe.
