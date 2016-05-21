@@ -9,3 +9,27 @@ Turn your "More" links into a bespoke call-to-action for each post. Rather than 
 
 Download it here: (https://github.com/NickCousins/ActionPress/archive/master.zip)
 
+##Installation
+
+1. Download the unzip plugin https://github.com/NickCousins/ActionPress/archive/master.zip
+2. Place the `actionpress` directory into `wp-content/plugins/`
+3. Go to the plugins tab in your Wordpress admin area, and click on *Activate* on the ActionPress plugin
+
+##Usage
+
+1. Create a new post, or edit an existing post
+2. You'll see a new meta-box above the *Update* or *Publish* button that says *Post Action*
+3. Enter your call-to-action for this post and press the *Update* or *Publish* button to save changes.
+
+Any posts with no call-to-action text defined will have a read more link that simply says "Read more". But you don't want that!
+
+##Customisation
+If you want to customise the style of your ActionPress more link, simply target the .actionpress_more class.
+
+The default styling is simple:
+```
+.actionpress_more{
+    display:block;
+    margin:10px auto;
+}
+```
