@@ -33,3 +33,9 @@ The default styling is simple:
     margin:10px auto;
 }
 ```
+
+###Troubleshooting
+By default, ActionPress has a priority of 20. This means that it applies its changes to the more link after all other changes (up to 19). It discards the previous more link entirely, therefore any changes up to 19th in the queue will be discarded.
+If you want to filter ActionPress, make your filter priority > 20.
+
+Any other problems, tweet me *@nickpcousins*
