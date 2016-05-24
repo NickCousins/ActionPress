@@ -11,12 +11,10 @@ The more link reads "See our top tips for cosification", because this relates di
 
 ![Screenshot of Wordpress post editing with ActionPress meta-box](http://nickcousins.co.uk/actionpress-metabox.png)
 
-Download it here: (https://github.com/NickCousins/actionpress/archive/master.zip)
-
 ##Installation
 
-1. Download the unzip plugin https://github.com/NickCousins/ActionPress/archive/master.zip
-2. Place the `actionpress` directory into `wp-content/plugins/`
+1. Download and unzip plugin from https://github.com/NickCousins/ActionPress/archive/master.zip
+2. Ensure the directory is called `actionpress` and place it into `wp-content/plugins/`
 3. Go to the plugins tab in your Wordpress admin area, and click on *Activate* on the ActionPress plugin
 
 ##Usage
