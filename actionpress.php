@@ -35,7 +35,7 @@ if (is_admin())
     /**
      * Meta box markup
      *
-     * @param $object
+     * @param $post
      */
     function actionpress_metabox_markup( $post )
     {
