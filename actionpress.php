@@ -16,7 +16,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
  *
  * @param $object
  */
-function actionpress_metabox_markup( $object )
+function actionpress_metabox_markup( $post )
 {
     wp_nonce_field( basename( __FILE__ ), "meta-box-nonce" );
 
@@ -24,7 +24,7 @@ function actionpress_metabox_markup( $object )
     <div>
         <input style="width:100%" type="text" name="post_action_text"
                placeholder="Read more"
-               value="<?php echo get_post_meta( $object->ID, "post_action_text", true ); ?>"/>
+               value="<?php echo esc_attr(get_post_meta( $post->ID, "post_action_text", true )); ?>"/>
 
         <p class="howto">Customise the text of your "read more" link</p>
     </div>
@@ -73,7 +73,7 @@ function actionpress_savepost( $post_id, $post, $update )
     if ( isset( $_POST[ "post_action_text" ] ) ) {
         $post_action_text = $_POST[ "post_action_text" ];
     }
-    update_post_meta( $post_id, "post_action_text", $post_action_text );
+    update_post_meta( $post_id, "post_action_text", sanitize_text_field( $post_action_text ) );
 
 }
 
@@ -92,7 +92,7 @@ function actionpress_excerptmore( $link )
 
     $readMoreText = !empty( $readMoreText ) ? $readMoreText : 'Read more';
 
-    return '<a class="actionpress_more more-link" href="' . get_the_permalink( $post->ID ) . '">' . $readMoreText . '</a>';
+    return '<a class="actionpress_more more-link" href="' . get_the_permalink( $post->ID ) . '">' . esc_attr( $readMoreText ) . '</a>';
 }
 
 /**
