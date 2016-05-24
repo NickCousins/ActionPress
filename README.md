@@ -7,7 +7,7 @@ Turn your "More" links into a bespoke call-to-action for each post. Rather than 
 
 ![Screenshot of Wordpress post editing with ActionPress meta-box](http://nickcousins.co.uk/actionpress-metabox.png)
 
-Download it here: (https://github.com/NickCousins/ActionPress/archive/master.zip)
+Download it here: (https://github.com/NickCousins/actionpress/archive/master.zip)
 
 ##Installation
 
