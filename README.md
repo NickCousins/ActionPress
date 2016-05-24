@@ -3,7 +3,11 @@
 ##Because "read more" isn't good enough
 Turn your "More" links into a bespoke call-to-action for each post. Rather than have "Read more" or "[...]" after your excerpt, you could have "See Bob's garden up close" in a post about a beautiful garden, or "Try our tasty sauce" in a bolognese sauce recipe.
 
+For example, here's a post about interior design:
+
 ![An example Wordpress post with a "read more" link that reads "See our top tips for cosification"](http://nickcousins.co.uk/actionpress-screenshot.png)
+
+The more link reads "See our top tips for cosification", because this relates directly to the post content, and is set in the post editing screen like this:
 
 ![Screenshot of Wordpress post editing with ActionPress meta-box](http://nickcousins.co.uk/actionpress-metabox.png)
 
